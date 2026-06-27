@@ -1,0 +1,41 @@
+[e-mail]
+version = "1.0.0"
+ext = "eml mbox"
+[e-mail.config]
+headers = ["Subject", "From", "To", "Date"]
+
+[excel]
+version = "1.0.0"
+ext = "xls xlsx xlsm"
+[excel.config]
+
+[hdf5]
+version = "1.0.0"
+ext = "hdf5"
+[hdf5.config]
+[hdf5.colors]
+type_color = ["k", "w"]
+
+[np_pickle]
+version = "1.0.0"
+ext = ""
+[np_pickle.config]
+encoding = "ASCII"
+
+[numpy]
+version = "1.0.0"
+ext = "npy npz"
+[numpy.config]
+
+[plist]
+version = "1.0.0"
+ext = "plist"
+[plist.config]
+
+[sqlite3]
+version = "1.0.0"
+ext = "db db3 sqp sqp3 sqlite sqlite3"
+[sqlite3.config]
+
+[matplotlib]
+version = "1.0.0"
